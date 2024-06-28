@@ -7,13 +7,13 @@ const notificationAlert = async (receiverEmail, reasonForAlert) => {
   const transporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
-      user: "shaan.ansari1901@gmail.com",
+      user: "maulik@gmail.com",
       pass: "zurckfeeesikzdau",
     },
   });
 
   const mailObject = {
-    from: "shaan.ansari1901@gmail.com",
+    from: "maulik@gmail.com",
     to: receiverEmail,
   };
 
